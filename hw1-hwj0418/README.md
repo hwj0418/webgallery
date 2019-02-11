@@ -1,8 +1,6 @@
-The objective of these assignments is to build an application called *The Web Gallery* where users can share pictures and comments. This application is similar to existing web applications such as Facebook (the photo album part), Picasa or Flickr. 
+This is an application called *The Web Gallery* where users can share pictures and comments. This application is similar to existing web applications such as Facebook (the photo album part), Picasa or Flickr. 
 
-# Building the frontend
-
-In this first assignment, we will concentrate on the front-end only. Users will be able to add images to the gallery. Our app will have two URLs:
+Here we will concentrate on the front-end only. Users will be able to add images to the gallery. Our app will have two URLs:
 
 - `/index.html` is the main page where users can browse through images, add new images and comment. 
 
@@ -10,7 +8,7 @@ In this first assignment, we will concentrate on the front-end only. Users will 
 
 ## Instructions
 
-For this assignment, you are **not** allowed to: 
+For this project, the following are **not** allowed to: 
 
 - use any CSS template 
 - use any javascript library or framework
@@ -26,8 +24,6 @@ The `webgallery` directory must be organized as follows:
 - `webgallery/style`: all css files
 - `webgallery/media`: all media files related to the UI (images, icons and so on)
 
-Your code must be of good quality and follow all recommendations given throughout the course. In this assignment, it means (non necessarily exhaustive): 
-
 - no use of deprecated HTML tags
 - proper use of id and class attributes
 - the page does not reload by itself 
@@ -39,17 +35,10 @@ Your code must be of good quality and follow all recommendations given throughou
 - all icons, images and other design elements are appropriately credited in `credits.html`.
 - all code found online and adapted are appropriately credited as comments
 
-### Submission
 
-You should submit your work to your Github course repository. Before submitting your final version. It is strongly recommended to verify that your code is portable. To do so: 
-
-- push your work to Github
-- clone it into a new directory
-- start your app and verify that it works as expected
 
 ## Designing the UI 
-
-In this part, you are going to design the UI (HTML and CSS) of *The Web Gallery* app. Our UI to contain the following components: 
+ 
 
 1. **the add-image form** allows users to add a picture from the web to the gallery by copying and pasting its url into the form (we will enable file upload in the next assignment). This component should contain at least: 
     - a button to toggle (show/hide) the add-image form
@@ -76,11 +65,6 @@ In this part, you are going to design the UI (HTML and CSS) of *The Web Gallery*
         - a delete button
     - two buttons to move to the older or later series of 10 comments (still related to the same image)
 
-##  Building the features
-
-In this part, you are going to build some frontend features. Data will be stored locally (HTML5 storage) and updated when users interacts with the app. The data should be persistent. This means that any comment or image previously added should appear (wherever appropriate) when the user browse through the gallery even if the page is reloaded. 
-
-As done for the lab, the javascript code must be separated in two: the **Frontend Controller** and the **the Frontend API**. For the **Frontend API** api, we provide a starter file called `api.js`. Your implementation of the **the Frontend API** will be auto-marked, so make sure to comply with the specifications.
 
 ### Adding and deleting images to the gallery
 
